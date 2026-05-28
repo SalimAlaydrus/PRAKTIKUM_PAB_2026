@@ -44,7 +44,6 @@ class Page4 extends StatelessWidget {
         children: [
           const SizedBox(height: 20),
 
-          // Tulisan Profile
           const Text(
             'Profile',
             style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
@@ -52,7 +51,6 @@ class Page4 extends StatelessWidget {
 
           const SizedBox(height: 16),
 
-          // Foto profil
           CircleAvatar(
             radius: 40,
             backgroundImage: NetworkImage(
