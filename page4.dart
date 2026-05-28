@@ -82,7 +82,6 @@ class Page4 extends StatelessWidget {
                   text: 'Surabaya',
                 ),
                 const Divider(),
-                _ProfileItem(icon: Icons.camera_alt_outlined, text: 'PAB2026'),
               ],
             ),
           ),
